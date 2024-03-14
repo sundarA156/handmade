@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    ---font-family1: "Dancing Script", cursive;
+    ---font-family2: "Noto Serif JP", serif;
+}
+.head-container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.logo img{
+   width: 150px;
+   height: 100px;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlinks1 {
+    list-style: none;
+}
+.navlinks1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+    height: 100%;
+    margin-right: 60px;
+}
+.navlinks1 li{
+    color: lightslategray;
+}
+.checkbtn{
+    color: lightslategray;
+    font-size: 25px;
+    margin-left: 60px;
+}
+#check{
+    display: none;
+}
+.navlinks2{
+    list-style: none;
+    
+}
+.navlinks2 {
+    display: none;
+}
+.head2-container{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlinks3 {
+    list-style: none;
+}
+.navlinks3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
+.navlinks3 a {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* design start */
+.dsg-container{
+    width: 100%;
+    height: auto;
+}
+.sp{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(236, 239, 240);
+}
+.sp-1{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sp-2 {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.sp-2 h1 {
+    font-family: var(---font-family1);
+    text-transform: capitalize;
+    color: lightslategray;
+}
+.sp-2 p {
+    font-size: 4rem;
+    color: rgb(68, 106, 132);
+    font-family: var(---font-family2);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.sp-2 button {
+    padding: 10px 20px;
+    background-color: rgb(68, 106, 132);
+    border: none;
+    color: white;
+}
+.sp-3{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+}
+.sp-3 img {
+    width: 100%;
+    height: 100%;
+}
+/* design-end */
+
+/* collection start */
+.oc-container{
+    width: 100%;
+    height: auto;
+}
+.oc-start{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oc-start h2 {
+    font-size: 2.5rem;
+    font-family: var(---font-family1);
+    text-transform: capitalize;
+    color: lightslategray;
+}
+.oc-start h1 {
+    font-size: 2.9rem;
+    color: rgb(68, 106, 132);
+    font-family: var(---font-family2);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.oc-end{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.oc-card {
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oc-card img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+.oc-card h2,p {
+ color: lightslategray;
+ text-transform: capitalize;
+}
+.ac-container{
+    width: 100%;
+    height: auto;
+   
+}
+.ac-start {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ac-card {
+    width: 70%;
+    height: 80vh;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.ac-card img {
+    width: 50%;
+    height: 50%;
+}
+.ac-card h4 {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.ac-end {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ac-card2 {
+    width: 70%;
+    height: 50vh;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; border: 1px solid black;
+}
+.ac-card2 h2 {
+    font-family: var(---font-family1);
+    font-size: 2rem;
+    color: lightslategray;
+    text-transform: capitalize;
+}
+.ac-card2 h4{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-family: var(---font-family2);
+}
+.ac-card2 p {
+    font-size: 1.4rem;
+    color: lightslategray;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+/* collectiion end */
+/* our-container-start */
+.our-container{
+    width: 100%;
+    height: 100vh;
+}
+.oc-main{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.main-card {
+    width: 90%;
+    height: 60vh;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sub-card {
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.sub-card img{
+    width: 100%;
+    height: 100%;
+}
+.main-card h4 {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.main-card1 {
+    width: 90%;
+    height: 60vh;
+    margin-left: 5%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* our-container-end */
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .navlinks1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 20%;
+        height: 100%;
+        margin-right: 10px;
+    }
+    .checkbtn{
+        margin-left: 20px;
+    }
+    .navlinks2 {
+        display: block;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        background-color: lightslategray;
+        top: 100px;
+        display: none;
+      }
+      .navlinks2 a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      .navlinks2 li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+      }
+     .checkbtn {
+        display: block;
+     }
+     #check:checked~.navlinks2 {
+        display: flex;
+        flex-direction: column;
+     }
+     .head2-container {
+        display: none;
+     }
+     .sp{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .oc-container{
+        width: 100%;
+        height: auto;
+    }
+    .oc-start{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .oc-end{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ac-container{
+        width: 100%;
+        height: auto;
+    }
+    .ac-start {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ac-end {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ac-card2 {
+        width: 90%;
+        height: 50vh;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; border: 1px solid black;
+    }
+    .oc-main{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    .our-container{
+        width: 100%;
+        height: auto;
+    }
+    
+}
